@@ -1,0 +1,62 @@
+
+UserBoundary:
+
+{	
+	"userId":{
+	"domain":"2020b.tamir.reznik",
+	"email":"demo@us.er"
+	},
+ 	"role": "PLAYER",
+	"username":"Demo User",
+	"avatar":";-)"
+}
+
+ElementBoundary:
+
+{
+    "elementId": {
+        "domain": "{managerDomain}",
+        "id": "5303776d-87d8-4d84-b8c3-b1240787e2a8"
+    },
+    "type": "demoElement",
+    "name": "Parking Lot",
+    "active": true,
+    "timeStamp": "1970-01-01",
+    "createBy": null,
+    "location": {
+        "lat": 35.3256,
+        "lng": 46.0234
+    },
+    "elemntAttributes": {
+        "test": "great test",
+        "parking type": "CRITICAL"
+    }
+}
+
+ActionBoundary:
+
+{
+ 	"actionId":{
+		"domain": "tamir",
+		"id": "54"	
+	}, 	
+	"type":"CRITICAL",
+	"element":{
+		"elementId": {
+            "domain": "2020b.demo",
+            "id": 0
+        }
+	},
+ 	"invokedBy":{
+ 		"userId": {
+            "domain": "2020b.demo",
+            "email": "anna@gmail.com"
+        }
+	},
+	"actionAttributes":{
+		"streetName": "Sheshet Hayamim",
+		"cityName": "Binyamina",	
+		"isParkingEmpty": false,
+		"nameOfParking": "parking name"
+	} 	
+}
